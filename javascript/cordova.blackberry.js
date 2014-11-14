@@ -1,8 +1,8 @@
 // Platform: blackberry
 
-// commit 125dca530923a44a8f44f68f5e1970cbdd4e7faf
+// commit e586eccb34e537a7a623d159fef4861296977a1b
 
-// File generated at :: Wed Apr 03 2013 15:26:44 GMT-0700 (PDT)
+// File generated at :: Fri Nov 14 2014 13:35:01 GMT-0500 (Eastern Standard Time)
 
 /*
  Licensed to the Apache Software Foundation (ASF) under one
@@ -25,7 +25,7 @@
 
 ;(function() {
 
-// file: lib/scripts/require.js
+// file: lib\scripts\require.js
 
 var require,
     define;
@@ -319,7 +319,7 @@ module.exports = cordova;
 
 });
 
-// file: lib/common/argscheck.js
+// file: lib\common\argscheck.js
 define("cordova/argscheck", function(require, exports, module) {
 
 var exec = require('cordova/exec');
@@ -385,7 +385,7 @@ moduleExports.enableChecks = true;
 
 });
 
-// file: lib/common/builder.js
+// file: lib\common\builder.js
 define("cordova/builder", function(require, exports, module) {
 
 var utils = require('cordova/utils');
@@ -498,7 +498,7 @@ exports.replaceHookForTesting = function() {};
 
 });
 
-// file: lib/common/channel.js
+// file: lib\common\channel.js
 define("cordova/channel", function(require, exports, module) {
 
 var utils = require('cordova/utils'),
@@ -747,7 +747,7 @@ module.exports = channel;
 
 });
 
-// file: lib/common/commandProxy.js
+// file: lib\common\commandProxy.js
 define("cordova/commandProxy", function(require, exports, module) {
 
 
@@ -777,7 +777,7 @@ module.exports = {
 };
 });
 
-// file: lib/blackberry/exec.js
+// file: lib\blackberry\exec.js
 define("cordova/exec", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -841,7 +841,7 @@ module.exports = function(success, fail, service, action, args) {
 
 });
 
-// file: lib/common/modulemapper.js
+// file: lib\common\modulemapper.js
 define("cordova/modulemapper", function(require, exports, module) {
 
 var builder = require('cordova/builder'),
@@ -942,7 +942,7 @@ exports.reset();
 
 });
 
-// file: lib/blackberry/platform.js
+// file: lib\blackberry\platform.js
 define("cordova/platform", function(require, exports, module) {
 
 module.exports = {
@@ -977,7 +977,7 @@ module.exports = {
 
 });
 
-// file: lib/common/plugin/Acceleration.js
+// file: lib\common\plugin\Acceleration.js
 define("cordova/plugin/Acceleration", function(require, exports, module) {
 
 var Acceleration = function(x, y, z, timestamp) {
@@ -991,7 +991,7 @@ module.exports = Acceleration;
 
 });
 
-// file: lib/common/plugin/Camera.js
+// file: lib\common\plugin\Camera.js
 define("cordova/plugin/Camera", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -1049,7 +1049,7 @@ module.exports = cameraExport;
 
 });
 
-// file: lib/common/plugin/CameraConstants.js
+// file: lib\common\plugin\CameraConstants.js
 define("cordova/plugin/CameraConstants", function(require, exports, module) {
 
 module.exports = {
@@ -1087,7 +1087,7 @@ module.exports = {
 
 });
 
-// file: lib/common/plugin/CameraPopoverHandle.js
+// file: lib\common\plugin\CameraPopoverHandle.js
 define("cordova/plugin/CameraPopoverHandle", function(require, exports, module) {
 
 var exec = require('cordova/exec');
@@ -1105,7 +1105,7 @@ module.exports = CameraPopoverHandle;
 
 });
 
-// file: lib/common/plugin/CameraPopoverOptions.js
+// file: lib\common\plugin\CameraPopoverOptions.js
 define("cordova/plugin/CameraPopoverOptions", function(require, exports, module) {
 
 var Camera = require('cordova/plugin/CameraConstants');
@@ -1127,7 +1127,7 @@ module.exports = CameraPopoverOptions;
 
 });
 
-// file: lib/common/plugin/CaptureAudioOptions.js
+// file: lib\common\plugin\CaptureAudioOptions.js
 define("cordova/plugin/CaptureAudioOptions", function(require, exports, module) {
 
 /**
@@ -1146,7 +1146,7 @@ module.exports = CaptureAudioOptions;
 
 });
 
-// file: lib/common/plugin/CaptureError.js
+// file: lib\common\plugin\CaptureError.js
 define("cordova/plugin/CaptureError", function(require, exports, module) {
 
 /**
@@ -1171,7 +1171,7 @@ module.exports = CaptureError;
 
 });
 
-// file: lib/common/plugin/CaptureImageOptions.js
+// file: lib\common\plugin\CaptureImageOptions.js
 define("cordova/plugin/CaptureImageOptions", function(require, exports, module) {
 
 /**
@@ -1188,7 +1188,7 @@ module.exports = CaptureImageOptions;
 
 });
 
-// file: lib/common/plugin/CaptureVideoOptions.js
+// file: lib\common\plugin\CaptureVideoOptions.js
 define("cordova/plugin/CaptureVideoOptions", function(require, exports, module) {
 
 /**
@@ -1207,7 +1207,7 @@ module.exports = CaptureVideoOptions;
 
 });
 
-// file: lib/common/plugin/CompassError.js
+// file: lib\common\plugin\CompassError.js
 define("cordova/plugin/CompassError", function(require, exports, module) {
 
 /**
@@ -1226,7 +1226,7 @@ module.exports = CompassError;
 
 });
 
-// file: lib/common/plugin/CompassHeading.js
+// file: lib\common\plugin\CompassHeading.js
 define("cordova/plugin/CompassHeading", function(require, exports, module) {
 
 var CompassHeading = function(magneticHeading, trueHeading, headingAccuracy, timestamp) {
@@ -1240,7 +1240,7 @@ module.exports = CompassHeading;
 
 });
 
-// file: lib/common/plugin/ConfigurationData.js
+// file: lib\common\plugin\ConfigurationData.js
 define("cordova/plugin/ConfigurationData", function(require, exports, module) {
 
 /**
@@ -1261,7 +1261,7 @@ module.exports = ConfigurationData;
 
 });
 
-// file: lib/common/plugin/Connection.js
+// file: lib\common\plugin\Connection.js
 define("cordova/plugin/Connection", function(require, exports, module) {
 
 /**
@@ -1280,7 +1280,7 @@ module.exports = {
 
 });
 
-// file: lib/common/plugin/Contact.js
+// file: lib\common\plugin\Contact.js
 define("cordova/plugin/Contact", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -1442,7 +1442,7 @@ module.exports = Contact;
 
 });
 
-// file: lib/common/plugin/ContactAddress.js
+// file: lib\common\plugin\ContactAddress.js
 define("cordova/plugin/ContactAddress", function(require, exports, module) {
 
 /**
@@ -1473,7 +1473,7 @@ module.exports = ContactAddress;
 
 });
 
-// file: lib/common/plugin/ContactError.js
+// file: lib\common\plugin\ContactError.js
 define("cordova/plugin/ContactError", function(require, exports, module) {
 
 /**
@@ -1500,7 +1500,7 @@ module.exports = ContactError;
 
 });
 
-// file: lib/common/plugin/ContactField.js
+// file: lib\common\plugin\ContactField.js
 define("cordova/plugin/ContactField", function(require, exports, module) {
 
 /**
@@ -1522,7 +1522,7 @@ module.exports = ContactField;
 
 });
 
-// file: lib/common/plugin/ContactFindOptions.js
+// file: lib\common\plugin\ContactFindOptions.js
 define("cordova/plugin/ContactFindOptions", function(require, exports, module) {
 
 /**
@@ -1541,7 +1541,7 @@ module.exports = ContactFindOptions;
 
 });
 
-// file: lib/common/plugin/ContactName.js
+// file: lib\common\plugin\ContactName.js
 define("cordova/plugin/ContactName", function(require, exports, module) {
 
 /**
@@ -1567,7 +1567,7 @@ module.exports = ContactName;
 
 });
 
-// file: lib/common/plugin/ContactOrganization.js
+// file: lib\common\plugin\ContactOrganization.js
 define("cordova/plugin/ContactOrganization", function(require, exports, module) {
 
 /**
@@ -1596,7 +1596,7 @@ module.exports = ContactOrganization;
 
 });
 
-// file: lib/common/plugin/Coordinates.js
+// file: lib\common\plugin\Coordinates.js
 define("cordova/plugin/Coordinates", function(require, exports, module) {
 
 /**
@@ -1650,7 +1650,7 @@ module.exports = Coordinates;
 
 });
 
-// file: lib/common/plugin/DirectoryEntry.js
+// file: lib\common\plugin\DirectoryEntry.js
 define("cordova/plugin/DirectoryEntry", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -1741,7 +1741,7 @@ module.exports = DirectoryEntry;
 
 });
 
-// file: lib/common/plugin/DirectoryReader.js
+// file: lib\common\plugin\DirectoryReader.js
 define("cordova/plugin/DirectoryReader", function(require, exports, module) {
 
 var exec = require('cordova/exec'),
@@ -1789,7 +1789,7 @@ module.exports = DirectoryReader;
 
 });
 
-// file: lib/common/plugin/Entry.js
+// file: lib\common\plugin\Entry.js
 define("cordova/plugin/Entry", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -1994,7 +1994,7 @@ module.exports = Entry;
 
 });
 
-// file: lib/common/plugin/File.js
+// file: lib\common\plugin\File.js
 define("cordova/plugin/File", function(require, exports, module) {
 
 /**
@@ -2056,7 +2056,7 @@ module.exports = File;
 
 });
 
-// file: lib/common/plugin/FileEntry.js
+// file: lib\common\plugin\FileEntry.js
 define("cordova/plugin/FileEntry", function(require, exports, module) {
 
 var utils = require('cordova/utils'),
@@ -2121,7 +2121,7 @@ module.exports = FileEntry;
 
 });
 
-// file: lib/common/plugin/FileError.js
+// file: lib\common\plugin\FileError.js
 define("cordova/plugin/FileError", function(require, exports, module) {
 
 /**
@@ -2152,7 +2152,7 @@ module.exports = FileError;
 
 });
 
-// file: lib/common/plugin/FileReader.js
+// file: lib\common\plugin\FileReader.js
 define("cordova/plugin/FileReader", function(require, exports, module) {
 
 var exec = require('cordova/exec'),
@@ -2528,7 +2528,7 @@ module.exports = FileReader;
 
 });
 
-// file: lib/common/plugin/FileSystem.js
+// file: lib\common\plugin\FileSystem.js
 define("cordova/plugin/FileSystem", function(require, exports, module) {
 
 var DirectoryEntry = require('cordova/plugin/DirectoryEntry');
@@ -2551,7 +2551,7 @@ module.exports = FileSystem;
 
 });
 
-// file: lib/common/plugin/FileTransfer.js
+// file: lib\common\plugin\FileTransfer.js
 define("cordova/plugin/FileTransfer", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -2746,7 +2746,7 @@ module.exports = FileTransfer;
 
 });
 
-// file: lib/common/plugin/FileTransferError.js
+// file: lib\common\plugin\FileTransferError.js
 define("cordova/plugin/FileTransferError", function(require, exports, module) {
 
 /**
@@ -2770,7 +2770,7 @@ module.exports = FileTransferError;
 
 });
 
-// file: lib/common/plugin/FileUploadOptions.js
+// file: lib\common\plugin\FileUploadOptions.js
 define("cordova/plugin/FileUploadOptions", function(require, exports, module) {
 
 /**
@@ -2795,7 +2795,7 @@ module.exports = FileUploadOptions;
 
 });
 
-// file: lib/common/plugin/FileUploadResult.js
+// file: lib\common\plugin\FileUploadResult.js
 define("cordova/plugin/FileUploadResult", function(require, exports, module) {
 
 /**
@@ -2812,7 +2812,7 @@ module.exports = FileUploadResult;
 
 });
 
-// file: lib/common/plugin/FileWriter.js
+// file: lib\common\plugin\FileWriter.js
 define("cordova/plugin/FileWriter", function(require, exports, module) {
 
 var exec = require('cordova/exec'),
@@ -3071,7 +3071,7 @@ module.exports = FileWriter;
 
 });
 
-// file: lib/common/plugin/Flags.js
+// file: lib\common\plugin\Flags.js
 define("cordova/plugin/Flags", function(require, exports, module) {
 
 /**
@@ -3092,7 +3092,7 @@ module.exports = Flags;
 
 });
 
-// file: lib/common/plugin/GlobalizationError.js
+// file: lib\common\plugin\GlobalizationError.js
 define("cordova/plugin/GlobalizationError", function(require, exports, module) {
 
 
@@ -3118,11 +3118,12 @@ module.exports = GlobalizationError;
 
 });
 
-// file: lib/common/plugin/InAppBrowser.js
+// file: lib\common\plugin\InAppBrowser.js
 define("cordova/plugin/InAppBrowser", function(require, exports, module) {
 
 var exec = require('cordova/exec');
 var channel = require('cordova/channel');
+var urlutil = require('cordova/urlutil');
 
 function InAppBrowser() {
    this.channels = {
@@ -3155,6 +3156,7 @@ InAppBrowser.prototype = {
 };
 
 module.exports = function(strUrl, strWindowName, strWindowFeatures) {
+    strUrl = urlutil.makeAbsolute(strUrl);
     var iab = new InAppBrowser();
     var cb = function(eventname) {
        iab._eventHandler(eventname);
@@ -3166,7 +3168,7 @@ module.exports = function(strUrl, strWindowName, strWindowFeatures) {
 
 });
 
-// file: lib/common/plugin/LocalFileSystem.js
+// file: lib\common\plugin\LocalFileSystem.js
 define("cordova/plugin/LocalFileSystem", function(require, exports, module) {
 
 var exec = require('cordova/exec');
@@ -3185,7 +3187,7 @@ module.exports = LocalFileSystem;
 
 });
 
-// file: lib/common/plugin/Media.js
+// file: lib\common\plugin\Media.js
 define("cordova/plugin/Media", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -3365,7 +3367,7 @@ module.exports = Media;
 
 });
 
-// file: lib/common/plugin/MediaError.js
+// file: lib\common\plugin\MediaError.js
 define("cordova/plugin/MediaError", function(require, exports, module) {
 
 /**
@@ -3405,7 +3407,7 @@ module.exports = _MediaError;
 
 });
 
-// file: lib/common/plugin/MediaFile.js
+// file: lib\common\plugin\MediaFile.js
 define("cordova/plugin/MediaFile", function(require, exports, module) {
 
 var utils = require('cordova/utils'),
@@ -3445,7 +3447,7 @@ module.exports = MediaFile;
 
 });
 
-// file: lib/common/plugin/MediaFileData.js
+// file: lib\common\plugin\MediaFileData.js
 define("cordova/plugin/MediaFileData", function(require, exports, module) {
 
 /**
@@ -3469,7 +3471,7 @@ module.exports = MediaFileData;
 
 });
 
-// file: lib/common/plugin/Metadata.js
+// file: lib\common\plugin\Metadata.js
 define("cordova/plugin/Metadata", function(require, exports, module) {
 
 /**
@@ -3485,7 +3487,7 @@ module.exports = Metadata;
 
 });
 
-// file: lib/common/plugin/Position.js
+// file: lib\common\plugin\Position.js
 define("cordova/plugin/Position", function(require, exports, module) {
 
 var Coordinates = require('cordova/plugin/Coordinates');
@@ -3503,7 +3505,7 @@ module.exports = Position;
 
 });
 
-// file: lib/common/plugin/PositionError.js
+// file: lib\common\plugin\PositionError.js
 define("cordova/plugin/PositionError", function(require, exports, module) {
 
 /**
@@ -3526,7 +3528,7 @@ module.exports = PositionError;
 
 });
 
-// file: lib/common/plugin/ProgressEvent.js
+// file: lib\common\plugin\ProgressEvent.js
 define("cordova/plugin/ProgressEvent", function(require, exports, module) {
 
 // If ProgressEvent exists in global context, use it already, otherwise use our own polyfill
@@ -3578,7 +3580,7 @@ module.exports = ProgressEvent;
 
 });
 
-// file: lib/common/plugin/accelerometer.js
+// file: lib\common\plugin\accelerometer.js
 define("cordova/plugin/accelerometer", function(require, exports, module) {
 
 /**
@@ -3733,7 +3735,7 @@ module.exports = accelerometer;
 
 });
 
-// file: lib/common/plugin/accelerometer/symbols.js
+// file: lib\common\plugin\accelerometer\symbols.js
 define("cordova/plugin/accelerometer/symbols", function(require, exports, module) {
 
 
@@ -3744,7 +3746,7 @@ modulemapper.defaults('cordova/plugin/accelerometer', 'navigator.accelerometer')
 
 });
 
-// file: lib/blackberry/plugin/air/DirectoryEntry.js
+// file: lib\blackberry\plugin\air\DirectoryEntry.js
 define("cordova/plugin/air/DirectoryEntry", function(require, exports, module) {
 
 var DirectoryEntry = require('cordova/plugin/DirectoryEntry'),
@@ -4007,7 +4009,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/DirectoryReader.js
+// file: lib\blackberry\plugin\air\DirectoryReader.js
 define("cordova/plugin/air/DirectoryReader", function(require, exports, module) {
 
 var FileError = require('cordova/plugin/FileError');
@@ -4082,7 +4084,7 @@ module.exports = DirectoryReader;
 
 });
 
-// file: lib/blackberry/plugin/air/Entry.js
+// file: lib\blackberry\plugin\air\Entry.js
 define("cordova/plugin/air/Entry", function(require, exports, module) {
 
 var FileError = require('cordova/plugin/FileError'),
@@ -4442,7 +4444,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/File.js
+// file: lib\blackberry\plugin\air\File.js
 define("cordova/plugin/air/File", function(require, exports, module) {
 
 /**
@@ -4466,7 +4468,7 @@ module.exports = File;
 
 });
 
-// file: lib/blackberry/plugin/air/FileEntry.js
+// file: lib\blackberry\plugin\air\FileEntry.js
 define("cordova/plugin/air/FileEntry", function(require, exports, module) {
 
 var FileEntry = require('cordova/plugin/FileEntry'),
@@ -4531,7 +4533,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/FileReader.js
+// file: lib\blackberry\plugin\air\FileReader.js
 define("cordova/plugin/air/FileReader", function(require, exports, module) {
 
 var FileError = require('cordova/plugin/FileError'),
@@ -4778,7 +4780,7 @@ module.exports = FileReader;
 
 });
 
-// file: lib/blackberry/plugin/air/FileTransfer.js
+// file: lib\blackberry\plugin\air\FileTransfer.js
 define("cordova/plugin/air/FileTransfer", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -4922,7 +4924,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/FileWriter.js
+// file: lib\blackberry\plugin\air\FileWriter.js
 define("cordova/plugin/air/FileWriter", function(require, exports, module) {
 
 var FileError = require('cordova/plugin/FileError'),
@@ -5176,7 +5178,7 @@ module.exports = FileWriter;
 
 });
 
-// file: lib/blackberry/plugin/air/battery.js
+// file: lib\blackberry\plugin\air\battery.js
 define("cordova/plugin/air/battery", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -5218,7 +5220,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/camera.js
+// file: lib\blackberry\plugin\air\camera.js
 define("cordova/plugin/air/camera", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -5243,7 +5245,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/capture.js
+// file: lib\blackberry\plugin\air\capture.js
 define("cordova/plugin/air/capture", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -5342,7 +5344,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/device.js
+// file: lib\blackberry\plugin\air\device.js
 define("cordova/plugin/air/device", function(require, exports, module) {
 
 var channel = require('cordova/channel'),
@@ -5375,7 +5377,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/file/bbsymbols.js
+// file: lib\blackberry\plugin\air\file\bbsymbols.js
 define("cordova/plugin/air/file/bbsymbols", function(require, exports, module) {
 
 
@@ -5394,7 +5396,7 @@ modulemapper.merges('cordova/plugin/air/FileEntry', 'FileEntry');
 
 });
 
-// file: lib/blackberry/plugin/air/manager.js
+// file: lib\blackberry\plugin\air\manager.js
 define("cordova/plugin/air/manager", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -5436,7 +5438,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/network.js
+// file: lib\blackberry\plugin\air\network.js
 define("cordova/plugin/air/network", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -5475,7 +5477,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/platform.js
+// file: lib\blackberry\plugin\air\platform.js
 define("cordova/plugin/air/platform", function(require, exports, module) {
 
 module.exports = {
@@ -5485,7 +5487,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/air/requestFileSystem.js
+// file: lib\blackberry\plugin\air\requestFileSystem.js
 define("cordova/plugin/air/requestFileSystem", function(require, exports, module) {
 
 var DirectoryEntry = require('cordova/plugin/DirectoryEntry'),
@@ -5550,7 +5552,7 @@ module.exports = requestFileSystem;
 
 });
 
-// file: lib/blackberry/plugin/air/resolveLocalFileSystemURI.js
+// file: lib\blackberry\plugin\air\resolveLocalFileSystemURI.js
 define("cordova/plugin/air/resolveLocalFileSystemURI", function(require, exports, module) {
 
 var DirectoryEntry = require('cordova/plugin/DirectoryEntry'),
@@ -5637,7 +5639,7 @@ module.exports = function(uri, successCallback, errorCallback) {
 
 });
 
-// file: lib/common/plugin/battery.js
+// file: lib\common\plugin\battery.js
 define("cordova/plugin/battery", function(require, exports, module) {
 
 /**
@@ -5721,7 +5723,7 @@ module.exports = battery;
 
 });
 
-// file: lib/common/plugin/battery/symbols.js
+// file: lib\common\plugin\battery\symbols.js
 define("cordova/plugin/battery/symbols", function(require, exports, module) {
 
 
@@ -5731,7 +5733,7 @@ modulemapper.defaults('cordova/plugin/battery', 'navigator.battery');
 
 });
 
-// file: lib/common/plugin/camera/symbols.js
+// file: lib\common\plugin\camera\symbols.js
 define("cordova/plugin/camera/symbols", function(require, exports, module) {
 
 
@@ -5743,7 +5745,7 @@ modulemapper.defaults('cordova/plugin/CameraPopoverOptions', 'CameraPopoverOptio
 
 });
 
-// file: lib/common/plugin/capture.js
+// file: lib\common\plugin\capture.js
 define("cordova/plugin/capture", function(require, exports, module) {
 
 var exec = require('cordova/exec'),
@@ -5821,7 +5823,7 @@ module.exports = new Capture();
 
 });
 
-// file: lib/common/plugin/capture/symbols.js
+// file: lib\common\plugin\capture\symbols.js
 define("cordova/plugin/capture/symbols", function(require, exports, module) {
 
 var modulemapper = require('cordova/modulemapper');
@@ -5837,7 +5839,7 @@ modulemapper.clobbers('cordova/plugin/capture', 'navigator.device.capture');
 
 });
 
-// file: lib/common/plugin/compass.js
+// file: lib\common\plugin\compass.js
 define("cordova/plugin/compass", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -5924,7 +5926,7 @@ module.exports = compass;
 
 });
 
-// file: lib/common/plugin/compass/symbols.js
+// file: lib\common\plugin\compass\symbols.js
 define("cordova/plugin/compass/symbols", function(require, exports, module) {
 
 
@@ -5936,7 +5938,7 @@ modulemapper.clobbers('cordova/plugin/compass', 'navigator.compass');
 
 });
 
-// file: lib/common/plugin/console-via-logger.js
+// file: lib\common\plugin\console-via-logger.js
 define("cordova/plugin/console-via-logger", function(require, exports, module) {
 
 //------------------------------------------------------------------------------
@@ -6108,7 +6110,7 @@ for (var key in console) {
 
 });
 
-// file: lib/common/plugin/contacts.js
+// file: lib\common\plugin\contacts.js
 define("cordova/plugin/contacts", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -6169,7 +6171,7 @@ module.exports = contacts;
 
 });
 
-// file: lib/common/plugin/contacts/symbols.js
+// file: lib\common\plugin\contacts\symbols.js
 define("cordova/plugin/contacts/symbols", function(require, exports, module) {
 
 
@@ -6186,7 +6188,7 @@ modulemapper.clobbers('cordova/plugin/ContactOrganization', 'ContactOrganization
 
 });
 
-// file: lib/common/plugin/device.js
+// file: lib\common\plugin\device.js
 define("cordova/plugin/device", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -6245,7 +6247,7 @@ module.exports = new Device();
 
 });
 
-// file: lib/common/plugin/device/symbols.js
+// file: lib\common\plugin\device\symbols.js
 define("cordova/plugin/device/symbols", function(require, exports, module) {
 
 
@@ -6255,7 +6257,7 @@ modulemapper.clobbers('cordova/plugin/device', 'device');
 
 });
 
-// file: lib/common/plugin/echo.js
+// file: lib\common\plugin\echo.js
 define("cordova/plugin/echo", function(require, exports, module) {
 
 var exec = require('cordova/exec'),
@@ -6293,7 +6295,7 @@ module.exports = function(successCallback, errorCallback, message, forceAsync) {
 
 });
 
-// file: lib/common/plugin/file/symbols.js
+// file: lib\common\plugin\file\symbols.js
 define("cordova/plugin/file/symbols", function(require, exports, module) {
 
 
@@ -6304,7 +6306,7 @@ symbolshelper(modulemapper.defaults);
 
 });
 
-// file: lib/common/plugin/file/symbolshelper.js
+// file: lib\common\plugin\file\symbolshelper.js
 define("cordova/plugin/file/symbolshelper", function(require, exports, module) {
 
 module.exports = function(exportFunc) {
@@ -6329,7 +6331,7 @@ module.exports = function(exportFunc) {
 
 });
 
-// file: lib/common/plugin/filetransfer/symbols.js
+// file: lib\common\plugin\filetransfer\symbols.js
 define("cordova/plugin/filetransfer/symbols", function(require, exports, module) {
 
 
@@ -6340,7 +6342,7 @@ modulemapper.clobbers('cordova/plugin/FileTransferError', 'FileTransferError');
 
 });
 
-// file: lib/common/plugin/geolocation.js
+// file: lib\common\plugin\geolocation.js
 define("cordova/plugin/geolocation", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -6536,7 +6538,7 @@ module.exports = geolocation;
 
 });
 
-// file: lib/common/plugin/geolocation/symbols.js
+// file: lib\common\plugin\geolocation\symbols.js
 define("cordova/plugin/geolocation/symbols", function(require, exports, module) {
 
 
@@ -6549,7 +6551,7 @@ modulemapper.clobbers('cordova/plugin/Coordinates', 'Coordinates');
 
 });
 
-// file: lib/common/plugin/globalization.js
+// file: lib\common\plugin\globalization.js
 define("cordova/plugin/globalization", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -6925,7 +6927,7 @@ module.exports = globalization;
 
 });
 
-// file: lib/common/plugin/globalization/symbols.js
+// file: lib\common\plugin\globalization\symbols.js
 define("cordova/plugin/globalization/symbols", function(require, exports, module) {
 
 
@@ -6936,7 +6938,7 @@ modulemapper.clobbers('cordova/plugin/GlobalizationError', 'GlobalizationError')
 
 });
 
-// file: lib/blackberry/plugin/java/Contact.js
+// file: lib\blackberry\plugin\java\Contact.js
 define("cordova/plugin/java/Contact", function(require, exports, module) {
 
 var ContactError = require('cordova/plugin/ContactError'),
@@ -7327,7 +7329,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/java/ContactUtils.js
+// file: lib\blackberry\plugin\java\ContactUtils.js
 define("cordova/plugin/java/ContactUtils", function(require, exports, module) {
 
 var ContactAddress = require('cordova/plugin/ContactAddress'),
@@ -7694,7 +7696,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/java/DirectoryEntry.js
+// file: lib\blackberry\plugin\java\DirectoryEntry.js
 define("cordova/plugin/java/DirectoryEntry", function(require, exports, module) {
 
 var DirectoryEntry = require('cordova/plugin/DirectoryEntry'),
@@ -7939,7 +7941,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/java/Entry.js
+// file: lib\blackberry\plugin\java\Entry.js
 define("cordova/plugin/java/Entry", function(require, exports, module) {
 
 var FileError = require('cordova/plugin/FileError'),
@@ -8033,7 +8035,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/java/MediaError.js
+// file: lib\blackberry\plugin\java\MediaError.js
 define("cordova/plugin/java/MediaError", function(require, exports, module) {
 
 
@@ -8047,7 +8049,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/java/app.js
+// file: lib\blackberry\plugin\java\app.js
 define("cordova/plugin/java/app", function(require, exports, module) {
 
 var exec = require('cordova/exec'),
@@ -8104,7 +8106,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/java/app/bbsymbols.js
+// file: lib\blackberry\plugin\java\app\bbsymbols.js
 define("cordova/plugin/java/app/bbsymbols", function(require, exports, module) {
 
 
@@ -8114,7 +8116,7 @@ modulemapper.clobbers('cordova/plugin/java/app', 'navigator.app');
 
 });
 
-// file: lib/blackberry/plugin/java/contacts.js
+// file: lib\blackberry\plugin\java\contacts.js
 define("cordova/plugin/java/contacts", function(require, exports, module) {
 
 var ContactError = require('cordova/plugin/ContactError'),
@@ -8183,7 +8185,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/java/contacts/bbsymbols.js
+// file: lib\blackberry\plugin\java\contacts\bbsymbols.js
 define("cordova/plugin/java/contacts/bbsymbols", function(require, exports, module) {
 
 
@@ -8194,7 +8196,7 @@ modulemapper.merges('cordova/plugin/java/Contact', 'Contact');
 
 });
 
-// file: lib/blackberry/plugin/java/file/bbsymbols.js
+// file: lib\blackberry\plugin\java\file\bbsymbols.js
 define("cordova/plugin/java/file/bbsymbols", function(require, exports, module) {
 
 
@@ -8207,7 +8209,7 @@ modulemapper.merges('cordova/plugin/java/Entry', 'Entry');
 
 });
 
-// file: lib/blackberry/plugin/java/manager.js
+// file: lib\blackberry\plugin\java\manager.js
 define("cordova/plugin/java/manager", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -8283,7 +8285,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/java/media/bbsymbols.js
+// file: lib\blackberry\plugin\java\media\bbsymbols.js
 define("cordova/plugin/java/media/bbsymbols", function(require, exports, module) {
 
 
@@ -8296,7 +8298,7 @@ modulemapper.merges('cordova/plugin/java/MediaError', 'MediaError');
 
 });
 
-// file: lib/blackberry/plugin/java/notification.js
+// file: lib\blackberry\plugin\java\notification.js
 define("cordova/plugin/java/notification", function(require, exports, module) {
 
 var exec = require('cordova/exec');
@@ -8355,7 +8357,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/java/notification/bbsymbols.js
+// file: lib\blackberry\plugin\java\notification\bbsymbols.js
 define("cordova/plugin/java/notification/bbsymbols", function(require, exports, module) {
 
 
@@ -8365,7 +8367,7 @@ modulemapper.merges('cordova/plugin/java/notification', 'navigator.notification'
 
 });
 
-// file: lib/blackberry/plugin/java/platform.js
+// file: lib\blackberry\plugin\java\platform.js
 define("cordova/plugin/java/platform", function(require, exports, module) {
 
 module.exports = {
@@ -8498,7 +8500,7 @@ module.exports = {
 
 });
 
-// file: lib/common/plugin/logger.js
+// file: lib\common\plugin\logger.js
 define("cordova/plugin/logger", function(require, exports, module) {
 
 //------------------------------------------------------------------------------
@@ -8726,7 +8728,7 @@ document.addEventListener("deviceready", logger.__onDeviceReady, false);
 
 });
 
-// file: lib/common/plugin/logger/symbols.js
+// file: lib\common\plugin\logger\symbols.js
 define("cordova/plugin/logger/symbols", function(require, exports, module) {
 
 
@@ -8736,7 +8738,7 @@ modulemapper.clobbers('cordova/plugin/logger', 'cordova.logger');
 
 });
 
-// file: lib/common/plugin/media/symbols.js
+// file: lib\common\plugin\media\symbols.js
 define("cordova/plugin/media/symbols", function(require, exports, module) {
 
 
@@ -8747,7 +8749,7 @@ modulemapper.defaults('cordova/plugin/MediaError', 'MediaError');
 
 });
 
-// file: lib/common/plugin/network.js
+// file: lib\common\plugin\network.js
 define("cordova/plugin/network", function(require, exports, module) {
 
 var exec = require('cordova/exec'),
@@ -8819,7 +8821,7 @@ module.exports = me;
 
 });
 
-// file: lib/common/plugin/networkstatus/symbols.js
+// file: lib\common\plugin\networkstatus\symbols.js
 define("cordova/plugin/networkstatus/symbols", function(require, exports, module) {
 
 
@@ -8831,7 +8833,7 @@ modulemapper.defaults('cordova/plugin/Connection', 'Connection');
 
 });
 
-// file: lib/common/plugin/notification.js
+// file: lib\common\plugin\notification.js
 define("cordova/plugin/notification", function(require, exports, module) {
 
 var exec = require('cordova/exec');
@@ -8932,7 +8934,7 @@ module.exports = {
 
 });
 
-// file: lib/common/plugin/notification/symbols.js
+// file: lib\common\plugin\notification\symbols.js
 define("cordova/plugin/notification/symbols", function(require, exports, module) {
 
 
@@ -8942,7 +8944,7 @@ modulemapper.defaults('cordova/plugin/notification', 'navigator.notification');
 
 });
 
-// file: lib/blackberry/plugin/qnx/InAppBrowser.js
+// file: lib\blackberry\plugin\qnx\InAppBrowser.js
 define("cordova/plugin/qnx/InAppBrowser", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -9013,7 +9015,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/battery.js
+// file: lib\blackberry\plugin\qnx\battery.js
 define("cordova/plugin/qnx/battery", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -9038,7 +9040,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/camera.js
+// file: lib\blackberry\plugin\qnx\camera.js
 define("cordova/plugin/qnx/camera", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -9055,7 +9057,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/capture.js
+// file: lib\blackberry\plugin\qnx\capture.js
 define("cordova/plugin/qnx/capture", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -9116,7 +9118,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/compass.js
+// file: lib\blackberry\plugin\qnx\compass.js
 define("cordova/plugin/qnx/compass", function(require, exports, module) {
 
 var exec = require('cordova/exec'),
@@ -9263,7 +9265,7 @@ module.exports = compass;
 
 });
 
-// file: lib/blackberry/plugin/qnx/compass/bbsymbols.js
+// file: lib\blackberry\plugin\qnx\compass\bbsymbols.js
 define("cordova/plugin/qnx/compass/bbsymbols", function(require, exports, module) {
 
 
@@ -9273,7 +9275,7 @@ modulemapper.merges('cordova/plugin/qnx/compass', 'navigator.compass');
 
 });
 
-// file: lib/blackberry/plugin/qnx/device.js
+// file: lib\blackberry\plugin\qnx\device.js
 define("cordova/plugin/qnx/device", function(require, exports, module) {
 
 var channel = require('cordova/channel'),
@@ -9299,7 +9301,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/file.js
+// file: lib\blackberry\plugin\qnx\file.js
 define("cordova/plugin/qnx/file", function(require, exports, module) {
 
 /*global WebKitBlobBuilder:false */
@@ -9707,7 +9709,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/fileTransfer.js
+// file: lib\blackberry\plugin\qnx\fileTransfer.js
 define("cordova/plugin/qnx/fileTransfer", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -9896,7 +9898,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/inappbrowser/bbsymbols.js
+// file: lib\blackberry\plugin\qnx\inappbrowser\bbsymbols.js
 define("cordova/plugin/qnx/inappbrowser/bbsymbols", function(require, exports, module) {
 
 
@@ -9906,7 +9908,7 @@ modulemapper.clobbers('cordova/plugin/InAppBrowser', 'open');
 
 });
 
-// file: lib/blackberry/plugin/qnx/magnetometer.js
+// file: lib\blackberry\plugin\qnx\magnetometer.js
 define("cordova/plugin/qnx/magnetometer", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -9936,7 +9938,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/manager.js
+// file: lib\blackberry\plugin\qnx\manager.js
 define("cordova/plugin/qnx/manager", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -9981,7 +9983,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/network.js
+// file: lib\blackberry\plugin\qnx\network.js
 define("cordova/plugin/qnx/network", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -9994,7 +9996,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/qnx/platform.js
+// file: lib\blackberry\plugin\qnx\platform.js
 define("cordova/plugin/qnx/platform", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -10023,7 +10025,7 @@ module.exports = {
 
 });
 
-// file: lib/common/plugin/requestFileSystem.js
+// file: lib\common\plugin\requestFileSystem.js
 define("cordova/plugin/requestFileSystem", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -10069,7 +10071,7 @@ module.exports = requestFileSystem;
 
 });
 
-// file: lib/common/plugin/resolveLocalFileSystemURI.js
+// file: lib\common\plugin\resolveLocalFileSystemURI.js
 define("cordova/plugin/resolveLocalFileSystemURI", function(require, exports, module) {
 
 var argscheck = require('cordova/argscheck'),
@@ -10118,7 +10120,7 @@ module.exports = function(uri, successCallback, errorCallback) {
 
 });
 
-// file: lib/common/plugin/splashscreen.js
+// file: lib\common\plugin\splashscreen.js
 define("cordova/plugin/splashscreen", function(require, exports, module) {
 
 var exec = require('cordova/exec');
@@ -10136,7 +10138,7 @@ module.exports = splashscreen;
 
 });
 
-// file: lib/common/plugin/splashscreen/symbols.js
+// file: lib\common\plugin\splashscreen\symbols.js
 define("cordova/plugin/splashscreen/symbols", function(require, exports, module) {
 
 
@@ -10146,7 +10148,7 @@ modulemapper.clobbers('cordova/plugin/splashscreen', 'navigator.splashscreen');
 
 });
 
-// file: lib/blackberry/plugin/webworks/accelerometer.js
+// file: lib\blackberry\plugin\webworks\accelerometer.js
 define("cordova/plugin/webworks/accelerometer", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -10174,7 +10176,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/webworks/logger.js
+// file: lib\blackberry\plugin\webworks\logger.js
 define("cordova/plugin/webworks/logger", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -10189,7 +10191,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/webworks/media.js
+// file: lib\blackberry\plugin\webworks\media.js
 define("cordova/plugin/webworks/media", function(require, exports, module) {
 
 var cordova = require('cordova'),
@@ -10363,7 +10365,7 @@ module.exports = {
 
 });
 
-// file: lib/blackberry/plugin/webworks/notification.js
+// file: lib\blackberry\plugin\webworks\notification.js
 define("cordova/plugin/webworks/notification", function(require, exports, module) {
 
 var cordova = require('cordova');
@@ -10393,14 +10395,19 @@ module.exports = {
             btnLabel = args[2],
             btnLabels = btnLabel.split(",");
 
-        blackberry.ui.dialog.customAskAsync.apply(this, [msg, btnLabels, win, {"title" : title} ]);
+        //buttonIndex must be incremented because blackberry.ui.dialog uses 0-based indexing
+        var winCallback = function(buttonIndex) {
+            win(buttonIndex + 1);
+        };
+
+        blackberry.ui.dialog.customAskAsync.apply(this, [msg, btnLabels, winCallback, {"title" : title} ]);
         return { "status" : cordova.callbackStatus.NO_RESULT, "message" : "WebWorks Is On It" };
     }
 };
 
 });
 
-// file: lib/common/symbols.js
+// file: lib\common\symbols.js
 define("cordova/symbols", function(require, exports, module) {
 
 var modulemapper = require('cordova/modulemapper');
@@ -10413,7 +10420,24 @@ modulemapper.clobbers('cordova/exec', 'Cordova.exec');
 
 });
 
-// file: lib/common/utils.js
+// file: lib\common\urlutil.js
+define("cordova/urlutil", function(require, exports, module) {
+
+var urlutil = exports;
+var anchorEl = document.createElement('a');
+
+/**
+ * For already absolute URLs, returns what is passed in.
+ * For relative URLs, converts them to absolute ones.
+ */
+urlutil.makeAbsolute = function(url) {
+  anchorEl.href = url;
+  return anchorEl.href;
+};
+
+});
+
+// file: lib\common\utils.js
 define("cordova/utils", function(require, exports, module) {
 
 var utils = exports;
@@ -10662,7 +10686,7 @@ function formatted(object, formatChar) {
 
 window.cordova = require('cordova');
 
-// file: lib/scripts/bootstrap.js
+// file: lib\scripts\bootstrap.js
 
 (function (context) {
     // Replace navigator before any modules are required(), to ensure it happens as soon as possible.
@@ -10722,7 +10746,7 @@ window.cordova = require('cordova');
 
 }(window));
 
-// file: lib/scripts/bootstrap-blackberry.js
+// file: lib\scripts\bootstrap-blackberry.js
 
 document.addEventListener("DOMContentLoaded", function () {
     switch(require('cordova/platform').runtime()) {
@@ -10748,7 +10772,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-// file: lib/scripts/plugin_loader.js
+// file: lib\scripts\plugin_loader.js
 
 // Tries to load all plugins' js-modules.
 // This is an async process, but onDeviceReady is blocked on onPluginsReady.
